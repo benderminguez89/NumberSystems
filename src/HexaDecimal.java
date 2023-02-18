@@ -1,4 +1,11 @@
+import java.io.PrintWriter;
+
 public class HexaDecimal {
+
+    private PrintWriter pw;
+    public HexaDecimal(PrintWriter pw){
+        this.pw = pw;
+    }
     public void hexToDec() {
 
     }

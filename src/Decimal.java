@@ -1,4 +1,10 @@
+import java.io.PrintWriter;
+
 public class Decimal {
+    private PrintWriter pw;
+    public Decimal(PrintWriter pw){
+        this.pw = pw;
+    }
     public void decToBin() {
 
     }

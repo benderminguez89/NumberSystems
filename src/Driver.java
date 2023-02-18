@@ -9,7 +9,7 @@ public class Driver {
 
         Decimal dec = new Decimal(pw);
         Binary bin = new Binary(pw);
-        HexaDecimal hex = new HexaDecimal()(pw);
+        HexaDecimal hex = new HexaDecimal(pw);
 
         Menu menu = new Menu(pw);
 
