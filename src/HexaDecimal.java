@@ -6,6 +6,7 @@ public class HexaDecimal {
     public HexaDecimal(PrintWriter pw){
         this.pw = pw;
     }
+
     public void hexToDec() {
 
     }
@@ -15,7 +16,7 @@ public class HexaDecimal {
     }
 
 
-    private void inputHex(){
+    private void inputBin(){
 
     }
 

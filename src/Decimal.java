@@ -7,10 +7,12 @@ public class Decimal {
     }
     public void decToBin() {
 
+        outBin();
     }
 
     public void decToHex() {
 
+        outHex();
     }
 
 

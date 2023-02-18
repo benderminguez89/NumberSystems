@@ -17,7 +17,7 @@ public class Driver {
             menu.display();
             choice = menu.getSelection();
             switch (choice){
-                case 1: dec.decToBin(); break;
+                case 1: dec.decToHex(); break;
                 case 2: dec.decToHex(); break;
                 case 3: bin.binToDec(); break;
                 case 4: bin.binToHex(); break;

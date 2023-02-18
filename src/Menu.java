@@ -16,7 +16,7 @@ public class Menu {
     public int getSelection(){
         int choice = s.nextInt();
 
-        if(choice > 6 && choice < 1){
+        if(choice > 7 && choice < 1){
             System.out.println("Error: Selection MUST be 1 through 7");
             getSelection();
         }
