@@ -1,3 +1,0 @@
-Binary to Decimal: 5
-Binary to Decimal: 15
-Binary to Hexidecimal: TEST VAL
