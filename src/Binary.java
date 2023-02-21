@@ -70,7 +70,7 @@ public class Binary {
 
      */
     private void outDec(){
-        pw.print("Binary to Decimal: " + decNum + "\n");
+        pw.print("Binary to Decimal: " + binNum + " -----> " + decNum + "\n");
     }
 
     /*
