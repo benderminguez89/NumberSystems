@@ -1,0 +1,2 @@
+Binary to Decimal: 61680
+Binary to Hexidecimal: 0x5AF01

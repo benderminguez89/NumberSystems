@@ -13,6 +13,7 @@ public class Binary {
     private String binNum;
     private String hexNum;
     private int decNum;
+
     /*
 
      */
@@ -99,7 +100,8 @@ public class Binary {
         hexNum = "0x";
 
         for(int i = 0; i < binNum.length()/4; i++){
-            hexNum += binHex.get(binNum.substring(i*4, (i*4)+4));
+            int index = i*4;
+            hexNum += binHex.get(binNum.substring(index, index +4));
         }
         System.out.println(hexNum);
     }
@@ -108,6 +110,6 @@ public class Binary {
 
      */
     private void outHex() {
-        pw.print("Binary to Hexidecimal: " + hexNum + "\n");
+        pw.print("Binary to Hexidecimal: " + binNum + " -----> " + hexNum + "\n");
     }
 }
