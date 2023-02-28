@@ -110,6 +110,6 @@ public class Binary {
 
      */
     private void outHex() {
-        pw.print("Binary to Hexidecimal: " + binNum + " -----> " + hexNum + "\n");
+        pw.print("Binary to Hexadecimal: " + binNum + " -----> " + hexNum + "\n");
     }
 }
